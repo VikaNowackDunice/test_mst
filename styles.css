@@ -1,0 +1,517 @@
+body {
+  background-color: #282829;
+  padding: 0;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.navigationsHeader {
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #222222;
+  gap: 3%;
+  width: 100%;
+  height: 70px;
+  color: rgb(219, 214, 214);
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0 25px;
+}
+
+.header {
+  position: relative;
+}
+
+.navigationsHeader h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.navigationsHeader p {
+  font-style: oblique;
+  font-size: 1rem;
+  padding-top: 15px;
+}
+
+.mainText {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(224, 221, 221);
+  width: 100%;
+  height: 80vh;
+  background-color: #222222;
+}
+
+.section-left {
+  position: absolute;
+  width: 60%;
+  height: 20%;
+  top: 100px;
+  left: 40px;
+}
+
+.section-left h2 {
+  font-weight: 100;
+  font-size: 2.1rem;
+  position: absolute;
+}
+
+.section-left h3 {
+  position: absolute;
+  top: 80px;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+.buttonHead {
+  background-color: rgb(243, 243, 243);
+  color: black;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  position: absolute;
+  top: 330px;
+}
+
+.building-one {
+  position: absolute;
+  right: 0;
+  width: 40vw;
+  height: 80vh;
+  z-index: 2;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  margin-right: 10px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container p {
+  font-size: 1rem;
+  position: absolute;
+  left: 25px;
+}
+
+.flex-container p span {
+  font-size: 1.5rem;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.container-discounts {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-container {
+  background-color: #282829;
+  width: 100%;
+  display: grid;
+  height: 80vh;
+  position: absolute;
+  padding: 30px 0;
+  top: 80vh;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgb(197, 197, 197);
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 70%;
+}
+
+.descriptionText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.building-two {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  left: 0;
+}
+
+.building-three {
+  width: 100%;
+  height: 70vh;
+  right: 0;
+  object-fit: cover;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.buttonDescription {
+  width: 30vw;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.submitForm {
+  background-color: #282829;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 75vh;
+  top: 140vh;
+}
+
+.form {
+  position: absolute;
+  border-radius: 20px;
+  background-color: rgb(247, 247, 247);
+  height: 60vh;
+  width: 70%;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.form form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headSubmit {
+  margin-left: 20px;
+  padding-right: 310px;
+  font-size: 1.8rem;
+  font-family: Georgia, serif;
+  font-weight: 500;
+  color: #48484b;
+}
+
+.textName,
+.textEmail,
+.buttonSubmit {
+  width: 50%;
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 5vh;
+  z-index: 1;
+}
+
+.checkbox {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.buttonSubmit {
+  background-color: #282829;
+  border: none;
+  border-radius: 2px;
+  height: 6vh;
+  color: rgb(236, 234, 234);
+  z-index: 1;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.building-five {
+  height: 50vh;
+  width: 25vw;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.checkboxText {
+  margin-right: 250px;
+}
+
+.building-six {
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  height: 55vh;
+}
+
+.footer {
+  width: 100vw;
+  color: rgb(238, 234, 234);
+  position: relative;
+  top: 140vh;
+  height: 35vh;
+}
+
+.thin-line {
+  border: 1px solid white;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.footerNav {
+  font-style: oblique;
+  font-size: 0.9rem;
+  text-align: center;
+  position: absolute;
+  width: 100vw;
+}
+
+.buttonFooter {
+  width: 12vw;
+  height: 7vh;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  color: rgb(59, 59, 59);
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+.textButtonFooter {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  font-size: 0.8rem;
+  color: rgb(235, 235, 235);
+}
+
+.collectionIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 60px;
+  position: absolute;
+  top: 10vh;
+  left: 43.5vw;
+}
+
+.textIconFooter {
+  font-size: 0.8rem;
+  color: rgb(235, 235, 235);
+  position: absolute;
+  bottom: 10px;
+  left: 46.5vw;
+}
+
+.footerHead {
+  font-weight: 100;
+  font-family: Georgia, serif;
+  font-size: 1.3rem;
+  position: absolute;
+  left: 10vw;
+  bottom: 20px;
+}
+
+.footerText {
+  font-size: 0.9rem;
+  position: absolute;
+  left: 10vw;
+  bottom: 10px;
+}
+
+@media (max-width: 320px) {
+  .section-left h2 {
+    font-size: 1rem;
+  }
+
+  .section-left h3 {
+    margin-top: -10px;
+    font-size: 0.9rem;
+  }
+
+  .navigationsHeader {
+    z-index: 3;
+  }
+
+  .navigationsHeader p {
+    font-size: 0.6rem;
+    margin-top: 20px;
+  }
+
+  .building-one {
+    position: absolute;
+    right: 0px;
+    margin-top: 30px;
+    width: 43vw;
+    height: 55vh;
+  }
+
+  .mainText {
+    height: 60vh;
+    margin-left: -15px;
+  }
+
+  .buttonHead {
+    top: 230px;
+  }
+
+  .flex-container p {
+    font-size: 0.7rem;
+    position: absolute;
+    left: 15px;
+  }
+
+  .flex-container p span {
+    font-size: 0.8rem;
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+
+  .container-discounts {
+    margin-top: 130px;
+    gap: 10px;
+  }
+
+  .section-left {
+    top: 100px;
+    left: 20px;
+  }
+
+  .main-container {
+    top: 60vh;
+    font-size: 0.6rem;
+    width: 100%;
+  }
+
+  .description {
+    height: 65%;
+  }
+
+  .building-two {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .building-three {
+    height: 50vh;
+  }
+
+  .buttonDescription {
+    width: 40vw;
+  }
+
+  .submitForm {
+    width: 100%;
+    height: 50vh;
+    top: 130vh;
+    left: -20px;
+  }
+
+  .headSubmit {
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+
+  .building-five {
+    height: 60vh;
+    width: 34vw;
+  }
+
+  .checkboxText {
+    font-size: 0.65rem;
+    margin-top: -20px;
+    margin-left: 38px;
+  }
+
+  .building-six {
+    right: -25px;
+    width: 70vw;
+    height: 50vh;
+  }
+
+  .checkbox {
+    margin-top: 60px;
+  }
+
+  .footer {
+    width: 100vw;
+    color: rgb(238, 234, 234);
+    position: relative;
+    top: 140vh;
+    height: 35vh;
+  }
+
+  .thin-line {
+    border: 1px solid white;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .footerNav {
+    width: 100vw;
+  }
+
+  .buttonFooter {
+    width: 20vw;
+    right: 50px;
+    height: 5vh;
+  }
+
+  .textButtonFooter {
+    right: 50px;
+    font-size: 0.6rem;
+  }
+
+  .collectionIcon {
+    left: 25vw;
+    top: 80px;
+  }
+
+  .textIconFooter {
+    font-size: 0.6rem;
+    bottom: 0px;
+    left: 40vw;
+  }
+
+  .footerHead {
+    font-size: 1rem;
+    left: 5vw;
+    bottom: 30px;
+  }
+
+  .textName,
+  .textEmail,
+  .buttonSubmit {
+    width: 38%;
+  }
+
+  .footerText {
+    font-size: 0.6rem;
+    left: 5vw;
+    bottom: 0px;
+  }
+}
