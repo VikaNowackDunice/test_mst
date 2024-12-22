@@ -195,7 +195,7 @@ body {
   position: absolute;
   border-radius: 20px;
   background-color: rgb(247, 247, 247);
-  height: 60vh;
+  height: 70vh;
   width: 70%;
   font-weight: 100;
   margin-top: 20px;
@@ -238,13 +238,10 @@ body {
   color: rgb(236, 234, 234);
   z-index: 1;
   width: 50%;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .building-five {
-  height: 50vh;
+  height: 70vh;
   width: 25vw;
   position: absolute;
   right: 0;
@@ -255,6 +252,8 @@ body {
 
 .checkboxText {
   margin-right: 250px;
+  margin-top: -20px;
+  margin-left: 50px;
 }
 
 .building-six {
